@@ -1,0 +1,161 @@
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 0.375rem;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(218, 28%, 13%); 
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid: 
+    'header'auto 
+    'main' 1fr 
+    'footer'auto / 1fr;
+}
+
+a, li {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+}
+
+h1, h2 { font-family: 'Raleway', sans-serif; }
+
+header { grid-area: header; }
+
+main { grid-area: main; }
+
+footer { grid-area: footer; }
+
+img { max-width: 100%; }
+
+/* ---------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.container {
+    padding: 20px;
+    max-width: 100%;
+    width: 81.42857142857143vw;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* ---------------------------------------- */
+/* NAV */
+/* ---------------------------------------- */
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 3.125rem;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
+.top_image {
+    margin-top: 40px;
+    text-align: center;
+    width: ;
+}
+
+.header_text > h1 {
+    margin-bottom: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------- HEADINGS -------- */
+
+/* ------- PARAGRAPHS -------- */
+
+/* ------- ICONS -------- */
+
+/* ------- BUTTONS -------- */
+
+/*
+.stay_productive > div {
+    display: grid;
+    grid: 'prod_text prod_img'
+    ;
+    
+}
+
+.prod_img {
+    display: grid;
+    grid-area: prod_img;
+}
+
+.prod_text {
+    display: grid;
+    grid-area: prod_text;
+    
+}
+*/
