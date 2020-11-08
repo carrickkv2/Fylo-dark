@@ -123,8 +123,21 @@ nav ul li {
 
 
 
+.icons_and_text {
+    margin-top: 100px;
+    position: relative;
+}
 
-
+.icons_and_text::before {
+    content: '';
+    background-image: url('./images/bg-curvy-desktop.svg');
+    background-size: cover;
+    position: absolute;
+    top: -600px;
+    left: 10;
+    height: 400px;
+    width: 100%;
+}
 
 
 
