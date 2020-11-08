@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    background-color: hsl(218, 28%, 13%); 
+    /*background-color: hsl(218, 28%, 13%); */
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     display: grid;
@@ -33,7 +33,10 @@ header {
     background-color: hsl(217, 28%, 15%);
 }
 
-main { grid-area: main; }
+main { 
+    grid-area: main;
+    background-color: hsl(218, 28%, 13%); 
+}
 
 footer { grid-area: footer; }
 
@@ -60,7 +63,6 @@ img { max-width: 100%; }
     border-radius: 300px;
     padding: 0.78225rem 4.4375rem;
     text-align: center;
-
 }
 
 /* ---------------------------------------- */
@@ -114,12 +116,9 @@ nav ul li {
     justify-content: center;
 }
 
-
-
-
-
-
-
+/* ---------------------------------------- */
+/* MAIN */
+/* ---------------------------------------- */
 
 
 
