@@ -2,7 +2,9 @@
 /* BASIC SETUP */
 /* ---------------------------------------- */
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
@@ -10,9 +12,12 @@
 
 body {
     min-height: 100vh;
-    /*background-color: hsl(218, 28%, 13%); */
+    background-color: hsl(218, 28%, 13%); 
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
     display: grid;
     grid: 
     'header'auto 
@@ -90,6 +95,17 @@ nav ul li {
 /* HEADER */
 /* ---------------------------------------- */
 
+/* ------- HERO -------- */
+
+/*header.header {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 23rem;
+}
+*/
+
 .top_image {
     margin-top: 40px;
     text-align: center;
@@ -101,7 +117,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.26rem;
 } 
 
 .header_text_p {
@@ -114,34 +130,34 @@ nav ul li {
 .get_started {
     display: flex;
     justify-content: center;
+    margin-bottom: 170px;  
 }
+
+/* ------- 2_GRID -------- */
+
+.two_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---------------------------------------- */
 /* MAIN */
 /* ---------------------------------------- */
-
-
-
-
-.icons_and_text {
-    margin-top: 100px;
-    position: relative;
-}
-
-.icons_and_text::before {
-    content: '';
-    background-image: url('./images/bg-curvy-desktop.svg');
-    background-size: cover;
-    position: absolute;
-    top: -600px;
-    left: 10;
-    height: 400px;
-    width: 100%;
-}
-
-
-
-
 
 
 
