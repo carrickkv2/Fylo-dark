@@ -31,7 +31,7 @@ a, li {
     list-style-type: none;
 }
 
-h1, h2 { font-family: 'Raleway', sans-serif; }
+h1, h2, h3 { font-family: 'Raleway', sans-serif; }
 
 header { 
     grid-area: header; 
@@ -68,6 +68,7 @@ img { max-width: 100%; }
     border-radius: 300px;
     padding: 0.78225rem 4.4375rem;
     text-align: center;
+    border: none;
 }
 
 /* ---------------------------------------- */
@@ -95,16 +96,13 @@ nav ul li {
 /* HEADER */
 /* ---------------------------------------- */
 
-/* ------- HERO -------- */
-
-/*header.header {
+header.header {
     background-color: hsl(217, 28%, 15%);
     background-image: url(../images/bg-curvy-desktop.svg);
-    background-position: center bottom;
+    background-position: bottom ;
     background-repeat: no-repeat;
-    background-size: 100% 23rem;
+    background-size: 100% 23.5rem;
 }
-*/
 
 .top_image {
     margin-top: 40px;
@@ -130,35 +128,36 @@ nav ul li {
 .get_started {
     display: flex;
     justify-content: center;
-    margin-bottom: 170px;  
+    margin-bottom: 140px;
 }
-
-/* ------- 2_GRID -------- */
-
-.two_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------------------------------- */
 /* MAIN */
 /* ---------------------------------------- */
 
+/* ------- ICONS AND TEXT -------- */
+
+.two_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 92px 147px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 140px;
+    padding: 0 150px;
+}
+
+.access,
+.security,
+.real_time,
+.store {
+    max-width: 450px;
+    text-align: center;
+}
+
+.security {
+    margin-top: -15px;
+}
 
 
 
