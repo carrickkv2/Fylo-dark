@@ -29,3 +29,230 @@ footer {
     
 }
 
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    display: grid;
+    grid:
+        'header'auto 'main'1fr 'footer'auto / 1fr;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    grid-area: header;
+    background-color: hsl(217, 28%, 15%);
+}
+
+main {
+    grid-area: main;
+    background-color: hsl(218, 28%, 13%);
+}
+
+footer {
+    grid-area: footer;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.container {
+    padding: 20px;
+    max-width: 100%;
+    width: 81.42857142857143vw;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* ------- BUTTONS -------- */
+.btn {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 300px;
+    padding: 0.78225rem 4.4375rem;
+    text-align: center;
+    border: none;
+}
+
+/* ---------------------------------------- */
+/* NAV */
+/* ---------------------------------------- */
+
+nav {
+    margin-top: 1.875rem;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 3.125rem;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
+/* ------- HERO -------- */
+
+header.header {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 23rem;
+}
+
+
+.top_image {
+    margin-top: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.header_text_h1 {
+    margin: 30px 0 40px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.26rem;
+}
+
+.header_text_p {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.get_started {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------- ICONS AND TEXT -------- */
+
+.icons_and_text {
+    background: hsl(218, 28%, 13%);
+}
+
+.two_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 92px 147px;
+    justify-items: center;
+    align-items: center;
+    margin: 228px 0;
+    padding: 0 150px;
+}
+
+.access,
+.security,
+.real_time,
+.store {
+    max-width: 450px;
+    text-align: center;
+}
+
+.security {
+    margin-top: -15px;
+}
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* MAIN */
+/* ---------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------- HEADINGS -------- */
+
+/* ------- PARAGRAPHS -------- */
+
+/* ------- ICONS -------- */
+
+/* ------- BUTTONS -------- */
+
+/*
+.stay_productive > div {
+    display: grid;
+    grid: 'prod_text prod_img'
+    ;
+    
+}
+
+.prod_img {
+    display: grid;
+    grid-area: prod_img;
+}
+
+.prod_text {
+    display: grid;
+    grid-area: prod_text;
+    
+}
+*/
