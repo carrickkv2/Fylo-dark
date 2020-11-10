@@ -159,11 +159,27 @@ header.header {
     margin-top: -15px;
 }
 
+/* ------- STAY PRODUCTIVE -------- */
 
+.one_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
 
+.prod_text h2 {
+    font-size: 2.4rem;
+    margin-top: 50px;
+    margin-bottom: 31px;
+}
 
+.prod_text p {
+    margin-bottom: 21px;
+}
 
-
+.prod_text p:last-of-type {
+    margin-bottom: 26px;
+}
 
 
 
