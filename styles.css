@@ -41,12 +41,15 @@ header {
 main { 
     grid-area: main;
     background-color: hsl(218, 28%, 13%); 
-    z-index: -1;
+    position: relative;
+    padding-bottom: 310px;
+    z-index: 0;
 }
 
 footer { 
     grid-area: footer; 
     background: hsl(216, 53%, 9%);
+
 }
 
 img { max-width: 100%; }
@@ -67,7 +70,8 @@ img { max-width: 100%; }
 }
 
 /* ------- BUTTONS -------- */
-.btn {
+
+.btn_primary {
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     border-radius: 300px;
     padding: 0.78225rem 4.4375rem;
@@ -75,6 +79,12 @@ img { max-width: 100%; }
     border: none;
 }
 
+.btn_secondary{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 300px;
+    padding: 5px 3rem;
+    border: none;
+}
 /* ---------------------------------------- */
 /* NAV */
 /* ---------------------------------------- */
@@ -194,7 +204,7 @@ header.header {
 /* ------- TESTIMONIALS -------- */
 
 .testimonials {
-    margin-top: 10.9375rem;
+    margin-top: 7.5rem;
 }
 
 .testimonials_box {
@@ -242,3 +252,129 @@ header.header {
 
 /* ------- EARLY -------- */
 
+.early {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: hsl(217, 28%, 15%);
+    border-radius: 15px;
+    padding: 50px 80px 40px 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -100px;
+}
+
+.early h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.early p {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-content: center;
+}
+
+#email {
+    width: 482px;
+    height: 50px;
+    padding: 20px 47px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+/* ---------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------- */
+
+.footer {
+    padding: 200px 80px 0px 100px;
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr 1fr 2fr;
+    grid-row: auto;
+    gap: 3em;
+    grid-template-areas: "logo . . . ."
+    "location contact footer_links";
+}
+
+.social_icons {
+    margin: 11px;
+}
+/*
+.logo {
+    grid-area: logo;
+    margin-bottom: 35px;
+}
+
+.location {
+    grid-area: location;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.footer_links {
+    grid-area: footer_links;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    grid: "logo . . . ."
+            "location box3 box4";
+    
+    
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.location {
+    grid-area: location;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}
+
+*/
