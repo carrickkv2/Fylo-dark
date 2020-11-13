@@ -297,7 +297,7 @@ form {
 /* ---------------------------------------- */
 
 footer {
-    padding: 200px 80px 30px 100px;
+    padding: 200px 80px 40px 100px;
 }
 
 .logo {
@@ -349,6 +349,11 @@ footer {
     margin-right: 11px;
 }
 
+.attribution {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
 
 
 
