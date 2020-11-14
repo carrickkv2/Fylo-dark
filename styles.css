@@ -170,6 +170,20 @@ header.header {
     text-align: center;
 }
 
+.access > img,
+.security > img,
+.real_time > img,
+.store > img {
+margin-bottom: 29px; 
+}
+
+.access > h3,
+.security > h3,
+.real_time > h3,
+.store > h3 {
+margin-bottom: 17px; 
+}
+
 .security {
     margin-top: -0.9375rem;
 }
