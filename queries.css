@@ -12,15 +12,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 768px) {
     .two_grid {
         margin-left: 75px;
@@ -30,23 +21,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1661px) {
     .one_grid {
         column-gap: 2em;
@@ -57,25 +31,20 @@
         column-gap: 2em;
     }
 }
-
 */
 
-
-
-
-
-
 @media only screen and (max-width: 1661px) {
     .one_grid {
         column-gap: 2em;
     }
 }
-
-
-
 
 @media only screen and (max-width: 800px) {
     .header_text_h1 {
-        font-size: 1rem;
+        font-size: 1rem;  
+    }
+
+    .user_info img {
+        margin-right: 1rem;
     }
 }
