@@ -25,6 +25,11 @@ body {
     'footer'auto / 1fr;
 }
 
+html,
+body {
+    overscroll-behavior: none;
+}
+
 a, li {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
