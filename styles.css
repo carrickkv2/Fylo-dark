@@ -166,7 +166,6 @@ header.header {
 .security,
 .real_time,
 .store {
-    max-width: 28.125rem;
     text-align: center;
 }
 
@@ -335,8 +334,12 @@ footer {
 }
 
 .location {
-    max-width: 22.023809523809526vw;
+    max-width: 23.7vw;
     margin-right: 6.1875rem;
+}
+
+.location_indent {
+    text-indent: 45px;
 }
 
 .location img {
