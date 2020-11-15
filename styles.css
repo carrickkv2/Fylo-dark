@@ -30,6 +30,15 @@ body {
     overscroll-behavior: none;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 a, li {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
@@ -66,7 +75,7 @@ img { max-width: 100%; }
 .container {
     padding: 1.25rem;
     max-width: 100%;
-    width: 81.42857142857143vw;
+    width: 1368px;
     margin: 0 auto;
 }
 
