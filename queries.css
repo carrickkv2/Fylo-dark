@@ -1,28 +1,59 @@
 
 /* Small desktops to 1400 (widths bigger than the max-width of the container) */
 @media only screen and (max-width: 1400px) {
-    
+    .one_grid { column-gap: 2.5em; }
+    .test1 { margin-right: -100px; }
+    .contact { margin-right: 5rem; }
+    .footer_links2 { margin-right: 5rem; }
 }
+
 
 /* Big tablets to small desktops */
 @media only screen and (max-width: 1200px) {
+    .social_icons {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .social_icons > img { margin-bottom: 1rem; }
+    .location { margin-right: 4.1875rem; }
+
+    header.header {
+        background-color: hsl(217, 28%, 15%);
+        background-image: url(../images/bg-curvy-desktop.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 120% 23.5rem;
+    }
 }
+
 
 /* Small tablets to big tablets */
 @media only screen and (max-width: 1023px) {
-
+    .location { margin-right: 2.1875rem; }
+    .contact { margin-right: 3rem; }
+    .footer_links1 { margin-right: 4rem; }
+    .footer_links2 { margin-right: 4rem; }
+    .footer { width: auto; }
+    .
+    .test1 { 
+        margin-right: -80px;
+        margin-left: -80px;
+    }
 }
+
 
 /* Small phones to small tablets */
 @media only screen and (max-width: 767px) {
 
 }
 
+
 /* Smaller phones to small phones */
 @media only screen and (max-width: 480px) {
 
 }
+
 
 /* Smaller phones */
 @media only screen and (max-width: 375px) {
