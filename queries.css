@@ -1,10 +1,20 @@
 
-/* Small desktops to 1400 (widths bigger than the max-width of the container) */
-@media only screen and (max-width: 1400px) {
+/* Small desktops to 1500 (widths bigger than the max-width of the container) */
+@media only screen and (max-width: 1500px) {
     .one_grid { column-gap: 2.5em; }
     .test1 { margin-right: -100px; }
     .contact { margin-right: 5rem; }
     .footer_links2 { margin-right: 5rem; }
+    .footer { width: auto; }
+}
+
+
+/* For footer */
+@media only screen and (max-width: 1308px) {
+    .location { margin-right: 3.1875rem; }
+    .contact { margin-right: 4rem; }
+    .footer_links1 { margin-right: 4rem; }
+    .footer_links2 { margin-right: 4rem; }
 }
 
 
@@ -28,35 +38,223 @@
 }
 
 
-/* Small tablets to big tablets */
-@media only screen and (max-width: 1023px) {
+/* For footer again */
+@media only screen and (max-width: 1199px) {
+    .location { margin-right: 4.1875rem; }
+    .contact { margin-right: 5rem; }
+    .footer_links1 { margin-right: 5rem; }
+    .footer_links2 { margin-right: 5rem; }
+    .footer { width: auto; }
+
+    .logo_footer {
+        margin-left: -60px;
+        margin-bottom: 4rem;
+    }
+
+    .test1 {
+        margin-left: -60px;
+    }
+
+    .profiles { margin-right: 10px; }
+}
+
+
+/* For footer again */
+@media only screen and (max-width: 1140px) {
     .location { margin-right: 2.1875rem; }
     .contact { margin-right: 3rem; }
-    .footer_links1 { margin-right: 4rem; }
-    .footer_links2 { margin-right: 4rem; }
+    .footer_links1 { margin-right: 5rem; }
+    .footer_links2 { margin-right: 5rem; }
     .footer { width: auto; }
-    .
-    .test1 { 
-        margin-right: -80px;
-        margin-left: -80px;
+
+    .logo_footer {
+        margin-left: -60px;
+        margin-bottom: 4rem;
+    }
+
+    .test1 {
+        margin-left: -60px;
+    }
+
+    .profiles { margin-right: 10px; }
+}
+
+
+/* Small tablets to big tablets */
+@media only screen and (max-width: 1040px) {
+    .header_text_h1 { font-size: 1rem; }
+
+    .two_grid {
+        margin-left: 75px;
+        align-items: initial;
+        padding: 0;
+    }
+
+    .prod_text h2 { font-size: 2rem; }
+    .prod_img { min-width: 370px; }
+
+    .one_grid { 
+        margin-left: 0; 
+        grid-template-columns: 1fr 330px;
+    }
+
+    header.header {
+        background-color: hsl(217, 28%, 15%);
+        background-image: url(../images/bg-curvy-desktop.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 170% 23.5rem;
+    }
+
+    .testimonials_flex { display: initial; }
+    .testimonials_box { margin-bottom: 40px; }
+    .test1 { display: initial; }
+    .location { margin-bottom: 2rem; }
+    .footer_links1 { margin-bottom: 45px; }
+    .footer_links2 { margin-bottom: 3rem; }
+
+    .logo_footer {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .contact { margin-bottom: 70px; }
+    .contact > p { margin-bottom: 2rem; }
+    .contact_icon { margin-right: 10px; }
+    .footer_links1 a:last-of-type { margin-bottom: -1px; }
+
+    .social_icons {
+        justify-content: center;
+        flex-direction: row;
     }
 }
 
 
 /* Small phones to small tablets */
 @media only screen and (max-width: 767px) {
+    .two_grid { 
+        grid-template-columns: initial; 
+        margin-left: 50px;
+        margin-bottom: 8rem;
+    }
 
+    .one_grid { 
+        grid-template-columns: initial;
+        margin-left: 50px;
+    }
+
+    .prod_text br { display: none; }
+
+    .nav_header {
+        padding: 0;
+        margin-left: 50px;
+    }
+
+    .footer { margin-left: -100px; }
+    .social_icons { margin-left: 170px; }
+    .attribution { margin-left: 170px; }
+}
+
+
+/* For logo */
+@media only screen and (max-width: 673px) {
+    .btn_secondary {
+        padding: 1rem 2rem;
+    }
+
+    .logo {
+        width: 102px;
+        height: 34px;
+    }
+
+    form { flex-direction: column; }
+    .early { bottom: -12.5rem; }
+
+    .footer { margin-top: 120px; }
+
+    #email,
+    #submit {
+        width: 380px;
+        margin: 0 0 25px 0;
+    }
+}
+
+
+/* For early */
+@media only screen and (max-width: 607px) {
+    .btn_secondary {
+        padding: 1rem 2rem;
+    }
+
+    .early {
+        padding: 2rem 3rem 1rem 3rem;
+    }
+    .early h2 {
+        font-size: 1.7rem;
+        margin-bottom: 1.875rem;
+    }
+
+    #email,
+    #submit {
+        width: 300px;
+        margin: 0 0 25px 0;
+    }
+
+    .footer { margin-left: -100px; }
+    .social_icons { margin-left: 170px; }
+    .attribution { margin-left: 170px; }
+}
+
+
+/* For logo */
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 80px;
+        height: 25px;
+    }
+
+    header.header {
+        background-color: hsl(217, 28%, 15%);
+        background-image: url(./images/bg-curvy-mobile.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 170% 23.5rem;
+    }
+
+    .footer { margin-left: -100px; }
+    .social_icons { margin-left: 170px; }
+    .attribution {margin-left: 170px; } 
 }
 
 
 /* Smaller phones to small phones */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 460px) {
+    .logo {
+        width: 80px;
+        height: 25px;
+    }
 
+    nav { margin-left: -20px; }
+    .nav_header { margin-left: 46px; }
+    .one_grid { margin-left: 30px; }
 }
 
 
 /* Smaller phones */
 @media only screen and (max-width: 375px) {
+   
+
+    .two_grid { margin-left: 35px; }
+    .one_grid { margin-left: -15px; }
+    nav ul li { margin-left: 1.125rem; }
+    nav { font-size: 0.9rem; }
+    nav ul { margin-right: 10px; }
+    .one_grid { font-size: 0.9rem; }
+    .prod_img { min-width: 320px; }
+    .prod_text h2 { font-size: 1.2rem; }
+    .one_grid { margin-left: 10px; }
+    .test1 { padding-left: 500px; }
+
 
 }
 

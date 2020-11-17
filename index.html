@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="queries.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 
 <header class="header"> 
 
-  <div class="container">
+  <div class="container nav_header">
 
     <nav>
 
@@ -137,7 +137,7 @@
   <section class="testimonials">
 
     <div class="container">
-    <div class="flex">
+    <div class="flex testimonials_flex">
 
     <article class="testimonials_box box1">
       <p>
@@ -227,7 +227,7 @@
         <form action="">
         <label for="email">test</label>
         <input type="email" placeholder="email@example.com" id="email" name="email"> 
-        <input type="submit" class="btn_secondary" value="Get Started For Free">
+        <input type="submit" id="submit" class="btn_secondary" value="Get Started For Free">
         </form>
   </section>
 
@@ -237,34 +237,27 @@
 
   <div class="container footer">
 
-    <div class="logo">  
+    <div class="div_footer">  
       <a href="/"><img src="images/logo.svg" alt="logo" class="logo_footer"></a>
     </div>
     
 <div class="test1">
 
   <div class="location">
-    <p>
-      <img src="./images/icon-location.svg" alt="location icon">
-        Lorem ipsum dolor sit amet, consectetur
-        <p class ="indent">adipiscing elit, sed do eiusmod tempor</p>
-        <p class ="indent">incididunt ut labore et dolore magna aliqua.</p>
-
-    </p>
-
-
+      <img src="./images/icon-location.svg" alt="location icon" class="location_icon">
+      <p class="location_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 
 <div class="contact">
   <p class="p_one">
-    <img src="./images/icon-phone.svg" alt="contact icon">
+    <img src="./images/icon-phone.svg" alt="contact icon" class="contact_icon">
     <span>
       +1-543-123-4567
     </span>
   </p>
 
   <p>
-    <img src="./images/icon-email.svg" alt="email icon">
+    <img src="./images/icon-email.svg" alt="email icon" class="contact_icon">
     <span>
       example@fylo.com
     </span>
@@ -293,9 +286,8 @@
 </div>
 
 <p class="attribution">
-      Proudly made in Tema. 
-      Coded by <a href="https://github.com/carrickkv2">Dave</a>.
-    </p>
+    <sub>Designed in Tema, by <a href="https://github.com/carrickkv2">Dave</a>.</sub>
+</p>
 
   </div>
   </footer>
